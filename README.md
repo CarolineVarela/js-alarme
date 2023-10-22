@@ -1,2 +1,2 @@
 # alarme-data-hora
- um simples alarme, configurado com javascript e um pouco de css
+ um simples alarme, configurado com javascript e um pouco de sass
