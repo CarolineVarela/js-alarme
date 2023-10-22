@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #bfa258;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #608d6e;
+  width: 20em;
+  height: 23em;
+  padding: 10px;
+  margin: 20px;
+}
+.timer-data {
+  font-size: 20px;
+  margin: 15px;
+  color: #233b55;
+}
+.timer-relogio {
+  font-size: 20px;
+  background-color: #b48ba1;
+  color: #233b55;
+  width: 200px;
+  padding: 10px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+.timer-alarme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  color: #6b4c31;
+}
+.timer-alarme-hora {
+  margin: 10px;
+}
+.timer-alarme-tempo {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  text-indent: 10px;
+  cursor: pointer;
+}
+.timer-comandos button {
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #233b55;
+  color: #fff;
+}
+.timer-comandos :hover {
+  background-color: #7596ba;
+}
+
+.alarme {
+  background-color: #b5707f !important;
+}
+
+/*# sourceMappingURL=style.css.map */
