@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> data e hora P3 [timer com alarme]</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="timer" class="timer">       
+        <div id="data" class="timer-data"></div>
+        <div id="relogio" class="timer-relogio">00:00:00</div>
+        <div id="alarme" class="timer-alarme">
+            <label id="alarme_hora" class="timer-alarme-hora"> Hora do alarme: </label>
+            <label> Tempo do alarme (segundos): </label>
+            <input type="number" id="alarme_tempo" value="0" min="0" class="timer-alarme-tempo">
+        </div>
+        <div id="comandos" class="timer-comandos">
+            <button id="btn_ativar" class="timer-comandos-btn-ativar"> Ativar </button>
+            <button id="btn_parar" class="timer-comandos-btn-parar"> Parar </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
